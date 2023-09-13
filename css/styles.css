@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  color: rgba(255, 255, 255, 1);
+}
+
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-detail {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+.menu-list {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.adress-list {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.2em;
+}
+
+.baner {
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.baner-text {
+  color: var(--WHITE, #fff);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+
+.baner-button {
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.about {
+  background: #fff;
+}
