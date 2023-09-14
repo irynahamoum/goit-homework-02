@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: rgba(46, 47, 66, 1);
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -24,20 +25,13 @@ ul {
 .logo-detail {
   color: var(--NAVY-BLUE, #2e2f42);
 }
-.menu-list {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-}
 
 .menu-list-item {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 5; /* 150% */
-  letter-spacing: 0, 2em;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.2em;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -54,22 +48,20 @@ ul {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.2em;
+  font-style: normal;
 }
 
 .address-list-item {
   text-decoration: none;
 }
 
-.address-list-item:hover {
-  color: #404bbf;
-}
+.address-list-item:hover,
 .address-list-item:focus {
-  color: rgba(77, 90, 229, 1);
+  color: #404bbf;
 }
 
 .baner {
   background: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
 }
 
 .baner-title {
@@ -78,22 +70,21 @@ ul {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .baner-button {
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  font-weight: 500;
 }
 
-.baner-button:hover {
-  color: rgba(64, 75, 191, 1);
+.baner-button:hover,
+.baner-button:focus {
+  background-color: #404bbf;
 }
 
 .baner-button-text {
-  color: var(--WHITE, #fff);
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -106,7 +97,7 @@ ul {
 }
 
 .about-title {
-  color: inherit;
+  color: rgba(46, 47, 66, 1);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
@@ -125,16 +116,11 @@ ul {
 }
 
 .team-card {
-  border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
-  color: inherit;
-  text-align: center;
+  color: rgba(46, 47, 66, 1);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
@@ -143,8 +129,7 @@ ul {
 }
 
 .team-member {
-  color: inherit;
-  text-align: center;
+  color: rgba(46, 47, 66, 1);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
@@ -153,7 +138,6 @@ ul {
 
 .position {
   color: var(--SLATE, #434455);
-  text-align: center;
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
@@ -161,17 +145,14 @@ ul {
 
 .portfolio-container {
   background: #fff;
-  width: 1440px;
-  height: 3300px;
 }
 
 .portfolio-title {
-  color: inherit;
-  text-align: center;
+  color: rgba(46, 47, 66, 1);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1, 11; /* 111.111% */
-  letter-spacing: 02em;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.2em;
   text-transform: capitalize;
 }
 
@@ -180,14 +161,14 @@ ul {
   background: var(--WHITE, #fff);
 }
 
-.portfolio-title {
+.portfolio-card-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.2em;
 }
 
-.portfolio-text {
+.portfolio-card-text {
   color: var(--SLATE, #434455);
   font-size: 16px;
   line-height: 1.5; /* 150% */
