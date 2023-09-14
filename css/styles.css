@@ -57,7 +57,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.adress-mail {
+.address-mail {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
@@ -65,7 +65,7 @@ ul {
   color: #434455;
 }
 
-.adress-tel {
+.address-tel {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
