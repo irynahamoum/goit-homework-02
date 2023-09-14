@@ -42,18 +42,18 @@ ul {
   text-decoration: underline;
 }
 
-.address-list-item {
+.address {
   text-decoration: none;
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em
   font-style: normal;
 }
 
-.address-list-item:hover,
-.address-list-item:focus {
+.address:hover,
+.address:focus {
   color: #404bbf;
 }
 
