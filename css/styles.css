@@ -42,17 +42,14 @@ ul {
   text-decoration: underline;
 }
 
-.address-list {
+.address-list-item {
+  text-decoration: none;
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.2em;
   font-style: normal;
-}
-
-.address-list-item {
-  text-decoration: none;
 }
 
 .address-list-item:hover,
@@ -65,6 +62,7 @@ ul {
 }
 
 .baner-title {
+  text-align: center;
   color: var(--WHITE, #fff);
   font-size: 56px;
   font-weight: 700;
@@ -74,22 +72,18 @@ ul {
 
 .baner-button {
   background: var(--IRIS, #4d5ae5);
+  color: #ffffff;
   cursor: pointer;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-size: 16px;
 }
 
 .baner-button:hover,
 .baner-button:focus {
   background-color: #404bbf;
-}
-
-.baner-button-text {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
 }
 
 .about-container {
@@ -115,17 +109,18 @@ ul {
   background: var(--CLOUD, #f4f4fd);
 }
 
-.team-card {
-  background: var(--WHITE, #fff);
-}
-
 .team-title {
+  text-align: center;
   color: rgba(46, 47, 66, 1);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.team-card {
+  background: var(--WHITE, #fff);
 }
 
 .team-member {
@@ -148,6 +143,7 @@ ul {
 }
 
 .portfolio-title {
+  text-align: center;
   color: rgba(46, 47, 66, 1);
   font-size: 36px;
   font-weight: 700;
@@ -165,7 +161,8 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-card-text {
