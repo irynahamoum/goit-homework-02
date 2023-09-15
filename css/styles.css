@@ -40,7 +40,6 @@ ul {
 .menu-list-link:hover,
 .menu-list-link:focus {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .menu-list-link {
@@ -162,12 +161,11 @@ ul {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .portfolio-card {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
 
